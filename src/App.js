@@ -2,7 +2,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import Products from './components/Products/Products';
-import Selproducts from './components/selProducts/Selproducts';
+
 import Selected from './components/Selected/Selected';
 
 function App() {
@@ -18,10 +18,6 @@ function App() {
 
     const newProduct = [...selectedProduct, id]
     setselectedProduct(newProduct)
-
-
-
-
   }
 
   // random button 
@@ -32,7 +28,10 @@ function App() {
     setselectedProduct([onlyProduct])
 
   }
-
+  //chose again
+  const chooseAgain = () => {
+    setselectedProduct([])
+  }
   return (
     <div className='main'>
       {/* heading  */}
@@ -48,7 +47,7 @@ function App() {
 
         {/* selected items  */}
         <div className="selected">
-          <Selected selectedProduct={selectedProduct} randomButton={randomButton}></Selected>
+          <Selected selectedProduct={selectedProduct} randomButton={randomButton} chooseAgain={chooseAgain}></Selected>
 
         </div>
       </div>
