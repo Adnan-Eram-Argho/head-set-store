@@ -10,6 +10,10 @@ function App() {
       .then(res => res.json())
       .then(data => setproducts(data))
   }, [])
+
+  const addToCartButton = (id) => {
+    console.log("hello", id)
+  }
   console.log(products)
   return (
     <div >
@@ -17,7 +21,7 @@ function App() {
       <div className="main-display">
         <div className='products'>
           {
-            products.map(product => <Products product={product} key={product.id}></Products>)
+            products.map(product => <Products product={product} key={product.id} addToCartButton={() => addToCartButton()}></Products>)
           }
         </div>
         <div className="selected">
