@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Awesome Headphone",
+        "img": "https://img.freepik.com/free-photo/red-gold-headphones-digital-device_53876-97303.jpg?w=740&t=st=1648220824~exp=1648221424~hmac=cd4c47a7c2d8c3f33211aeeaba973d45550c1990ccbcb217444f7d508db675cd",
+        "price": 999
+    },
+    {
+        "id": 2,
+        "name": "bass headphone",
+        "img": "https://img.freepik.com/free-photo/3d-render-image-modern-coral-colored-audio-headphones_103577-4670.jpg?w=740",
+        "price": 345
+    },
+    {
+        "id": 3,
+        "name": "cheapest headphone",
+        "img": "https://img.freepik.com/free-psd/headphone-logo-mockup-isolated_57262-71.jpg?w=740",
+        "price": 7
+    },
+    {
+        "id": 4,
+        "name": "oppo headphone",
+        "img": "https://img.freepik.com/free-psd/headphones-mockup-floating_1332-8173.jpg?w=740&t=st=1648221362~exp=1648221962~hmac=d7c8b8f976c65881f4a3b6ff30f605bee1e8fda210bbb188d626b64d6405bc70",
+        "price": 345
+    },
+    {
+        "id": 5,
+        "name": "readmi headpone",
+        "img": "https://img.freepik.com/free-vector/headphones-background-design_1063-131.jpg?w=740&t=st=1648221360~exp=1648221960~hmac=69bb96b6a1753357a67865e280d0708a99e6bdf441f82e431344b0d2021956e6",
+        "price": 345
+    },
+    {
+        "id": 6,
+        "name": "headphone headphone",
+        "img": "https://img.freepik.com/free-psd/creative-headphone-mockup_1310-744.jpg?w=740&t=st=1648221358~exp=1648221958~hmac=06c8389fa2c312642a3fa9adfa067ec0e9614dfba6f405c002442e03374616df",
+        "price": 245
+    },
+    {
+        "id": 7,
+        "name": "headphone for the poor",
+        "img": "https://img.freepik.com/free-photo/pink-headphones-wireless-digital-device_53876-96804.jpg?w=740&t=st=1648221356~exp=1648221956~hmac=6e212a99207bce7e66b15cf8e250b64684213bf94651646fc8734ccc3daf3b33",
+        "price": 264
+    },
+    {
+        "id": 8,
+        "name": "headphone for the rich",
+        "img": "https://img.freepik.com/free-photo/black-wireless-headphone-isolated-beautiful-pastel-color_47469-462.jpg?w=740",
+        "price": 25645
+    },
+    {
+        "id": 9,
+        "name": "bose",
+        "img": "https://img.freepik.com/free-psd/headphone-mockup_187299-1061.jpg?w=740",
+        "price": 345
+    }
+]
