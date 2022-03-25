@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Products from './components/Products/Products';
 
 import Selected from './components/Selected/Selected';
+import Questions from './components/Questions/Questions';
 
 function App() {
   const [products, setproducts] = useState([]);
@@ -49,10 +50,13 @@ function App() {
         <div className="selected">
           <Selected selectedProduct={selectedProduct} randomButton={randomButton} chooseAgain={chooseAgain}></Selected>
 
+          {/* answers */}
+
+
         </div>
       </div>
 
-
+      <Questions></Questions>
 
     </div>
   );
