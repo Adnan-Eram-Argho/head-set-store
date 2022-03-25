@@ -1,11 +1,17 @@
 .product-container{
-    width:230px;
+    width:240px;
+    background-color: aliceblue;
+    padding:20px;
+    border-radius: 20px;
+
 }
 .product-img-con{
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 .product-img{
     width:100%;
+    border-radius: 20px;
 }

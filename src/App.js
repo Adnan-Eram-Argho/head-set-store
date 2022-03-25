@@ -17,11 +17,11 @@ function App() {
       <div className="main-display">
         <div className='products'>
           {
-            products.map(product => <Products product={product}></Products>)
+            products.map(product => <Products product={product} key={product.id}></Products>)
           }
         </div>
         <div className="selected">
-
+          <h3>hello</h3>
         </div>
       </div>
 
